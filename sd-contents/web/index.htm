@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>%title%</title>
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+ <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ <link rel="stylesheet" href="styleprt.css" type="text/css" media="print" />
+</head>
+<body>
+<h1>%title%</h1>
+<div id="inputs">
+<h2>Inputs</h2>
+<ul>
+ <li>RX CH1 <img src="led%input1%.png" alt="%input1%"/></li>
+ <li>RX CH2 <img src="led%input2%.png" alt="%input2%"/></li>
+ <li>RX CH3 <img src="led%input3%.png" alt="%input3%"/></li>
+ <li>RX CH4 <img src="led%input4%.png" alt="%input4%"/></li>
+ <li>??? <img src="led%input5%.png" alt="%input5%"/></li>
+ <li>??? <img src="led%input6%.png" alt="%input6%"/></li>
+ <li>??? <img src="led%input7%.png" alt="%input7%"/></li>
+ <li>A0=%analog1%</li>
+ <li>A1=%analog2%</li>
+ <li>A2=%analog3%</li>
+ <li>A3=%analog4%</li>
+</ul>
+</div>
+<div id="relays">
+<h2>Relay board</h2>
+<form action='' method='post'>
+<ul>
+ <li><label>Password: </label><input type='password' name='pass' /></li>
+ <li><label><img src="led%relay1%.png" alt="%relay1%"/> Luci stradina (RB1)</label><input type='submit' name='rel1' value="%nrelay1%"/></li>
+ <li><label><img src="led%relay2%.png" alt="%relay2%"/> Luce cancello (RB2)</label><input type='submit' name='rel2' value="%nrelay2%"/></li>
+ <li><label><img src="led%relay3%.png" alt="%relay3%"/> 5A (RB3)</label><input type='submit' name='rel3' value="%nrelay3%"/></li>
+ <li><label><img src="led%relay4%.png" alt="%relay4%"/> 5A (RB4)</label><input type='submit' name='rel4' value="%nrelay4%"/></li>
+ <li><label><img src="led%relay5%.png" alt="%relay5%"/> 10A (RB5)</label><input type='submit' name='rel5' value="%nrelay5%"/></li>
+ <li><label><img src="led%relay6%.png" alt="%relay6%"/> 10A (RB6)</label><input type='submit' name='rel6' value="%nrelay6%"/></li>
+ <li><label><img src="led%relay7%.png" alt="%relay7%"/> 5V/180mA (RBV)</label><input type='submit' name='vout' value="%nrelay7%"/></li>
+</ul>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    position: relative;
+}
+
+div {
+    display: block;
+    margin: .5em;
+    height: 19em;
+    overflow: hidden;
+}
+
+#inputs {
+    position: absolute;
+    width: 10em;
+    border: 1px solid;
+}
+
+#relays {
+    position: relative;
+    left: 10.5em;
+    top: .5em; /* Come il margin di #inputs */
+    width: 20em;
+    border: 1px solid red;
+}
+
+#relays input[type="password"] {
+    width: 5em;
+}
+
+h2 {
+    margin: 0 0 .5em 0;
+    padding: .3em;
+    border-bottom: 1px dotted gray;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: .5em;
+}
