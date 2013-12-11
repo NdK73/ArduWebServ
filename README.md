@@ -13,4 +13,4 @@ Code contains other useful snippets:
  - checking changed input state
  - searching between strings stored in program memory
 
-The supplied code communicates via I2C with a relay board by [BND Communications](http://www.bndcom.com).
+The supplied code communicates via I2C with an old relay board by BND Communications (seems it doesn't exists any more... but any PCA95340-based interface should work).
